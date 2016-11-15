@@ -1,0 +1,25 @@
+
+.circle {
+    border-radius: 20px;
+    width: 30px;
+    height: 30px;
+    margin-left: 17.5%;
+    display: inline-block;
+    background-color: #ffa500;
+    background-size: contain;
+    /* width and height can be anything, as long as they're equal */
+}
+
+.active{
+	background-color: #0000ff;
+}
+
+.complete{
+	background-image: url("img/check.png");
+	background-color: #98fb98;
+}
+
+.incomplete{
+	background-image: url("img/x.png");
+	background-color: #ff0000;
+}

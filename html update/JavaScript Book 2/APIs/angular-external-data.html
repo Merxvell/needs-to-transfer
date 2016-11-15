@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html ng-app>
+<head>
+  <title>Angular external data</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.2/angular.min.js"></script>
+  <script src="angular-external-data.js"></script>
+</head>
+<body>
+  <table ng-controller="timetablsCtrl">
+    <tr><th>Time</th><th>Title</th><th>Detail</th></tr>
+    <tr ng-repeat="session in sessions">
+      <td>{{ sessions.time }}</td>
+      <td>{{ sessions.title }}</td>
+      <td>{{ sessions.detail }}</td>
+    </tr>
+  </table>
+</body>
+</html>

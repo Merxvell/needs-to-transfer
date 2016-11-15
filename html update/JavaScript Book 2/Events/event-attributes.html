@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML EVENTS DO NOT USE HTML EVENTS</title>
+</head>
+
+<body>
+    <form method="post" action="http://www.example.org/register">
+        <label for="username">create a username: </label>
+        <input type="text" id="username" onblur="checkUsername()" />
+        <div id="feedback"></div>
+        <label for="password">Create a password: </label>
+        <input type="passwrd" id="password" />
+        <input type="submit" value="Sign up!" />
+    </form>
+    <script type="text/javascript" src="event-attributes.js"></script>
+</body>
+
+</html>

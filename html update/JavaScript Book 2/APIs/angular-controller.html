@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html ng-app>
+<head>
+  <title>Angular controller</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.2/angular.min.js"></script>
+  <script src="angular-controller.js"></script>
+</head>
+<body>
+  <table ng-controller="Basket">
+    <tr><td>Item:</td> <td> {{ description }} </td></tr>
+    <tr><td>Cost:</td> <td> $ {{ cost }} </td></tr>
+    <tr><td>Qty:</td> <td><input type="number" ng-model="qty" value="1" /></td></tr>
+    <tr><td>Subtotal:</td> <td> {{qty * cost | currency}} </td></tr>
+  </table>
+</body>
+</html>

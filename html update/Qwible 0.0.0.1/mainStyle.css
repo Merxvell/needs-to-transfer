@@ -1,0 +1,180 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, Sans-serif, sans-serif;
+    font-size: 14px;
+}
+
+.headerMenu{
+    background: url(./images/menu_background.png) center center fixed;
+    background-size: cover;
+    height: 43px;
+    border-bottom: 0;
+    padding-left: auto;
+    padding-right: auto;
+    width: 100%;
+}
+
+#wrapper{
+    background: url(./images/menu_background.png) center center fixed;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}
+
+/*insert logo css when we aquire a logo*/
+
+.searchBox{
+    background: url(./images/menu_background.png) center center fixed;
+    position: absolute;
+    top: 6px;
+    margin-left: 150px;
+}
+
+.searchBox input{
+    height: 26px;
+}
+
+#search input[type="text"]{
+    background-color: indianred;
+    outline: none;
+    border: 0;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: Arial, Helvetica, Sans-serif, sans-serif;
+    width: 350px;
+    padding: 1px 20px 1px 35px;
+    margin: 0;
+    text-shadow: 0 2px 2px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0 1px 0 rgba(255,255,255, 0.2), 0 1px 0 rgba(0,0,0,0.3) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255,255,255, 0.2), 0 1px 0 rgba(0,0,0,0.3) inset;
+    box-shadow: 0 1px 0 rgba(255,255,255, 0.2), 0 1px 0 rgba(0,0,0,0.3) inset;
+
+
+}
+
+#search input[type="text"]:focus{
+    background-color: aliceblue;
+    outline: none;
+    border: 0;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: Arial, Helvetica, Sans-serif, sans-serif;
+    width: 350px;
+    padding: 1px 20px 1px 35px;
+    margin: 0;
+    text-shadow: 0 2px 2px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0 1px 0 rgba(255,255,255, 0.1), 0 1px 0 rgba(0,0,0,0.3) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255,255,255, 0.1), 0 1px 0 rgba(0,0,0,0.3) inset;
+    box-shadow: 0 1px 0 rgba(255,255,255, 0.1), 0 1px 0 rgba(0,0,0,0.3) inset;
+    -webkit-transition: all 0.7s ease 0s;
+    -moz-transition: all 0.7s ease 0s;
+    -ms-transition: all 0.7s ease 0s;
+    -o-transition: all 0.7s ease 0s;
+    transition: all 0.7s ease 0s;
+}
+
+#search input[type="text"]:hover{
+    background-color: aliceblue;
+    outline: none;
+    border: 0px;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: Arial, Helvetica, Sans-serif, sans-serif;
+    width: 350px;
+    padding: 1px 20px 1px 35px;
+    margin: 0;
+    text-shadow: 0 2px 2px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0 1px 0 rgba(255,255,255, 0.1), 0 1px 0 rgba(0,0,0,0.3) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255,255,255, 0.1), 0 1px 0 rgba(0,0,0,0.3) inset;
+    box-shadow: 0 1px 0 rgba(255,255,255, 0.1), 0 1px 0 rgba(0,0,0,0.3) inset;
+    -webkit-transition: all 0.7s ease 0.1s;
+    -moz-transition: all 0.7s ease 0.1s;
+    -ms-transition: all 0.7s ease 0.1s;
+    -o-transition: all 0.7s ease 0.1s;
+    transition: all 0.7s ease 0.1s;
+}
+
+@media screen and (max-width: 1280px){
+#menu{
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height:37px;
+    padding-top: 19px;
+    margin-right: 4%;
+}
+}
+@media screen and (min-width: 1280px){
+    #menu{
+        background-color: transparent;
+        position: absolute;
+        top: 0;
+        right: 0;
+        height:37px;
+        padding-top: 19px;
+        margin-right: 10%
+    }
+}
+@media screen and (max-width: 1920px){
+    #menu{
+        background-color: transparent;
+        position: absolute;
+        top: 0;
+        right: 0;
+        height:37px;
+        padding-top: 19px;
+        margin-right: 27%;
+    }
+}
+
+
+#menu a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 14px;
+    background-color: transparent;
+    padding-top: 20px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#menu a:hover{
+    /*recommended to get an image */
+    background-color: darkred;
+}
+
+h2 {
+   font-family: Arial, Helvetica, Sans-serif, sans-serif;
+    font-size: 20px;
+    padding: 8px;
+    color: #f03342;
+}
+
+input[type="text"]{
+    background-color: #FFFFFF;
+    border: 1px solid #E2E2E2;
+    font-size: 15px;
+    padding: 5px;
+    width: 300px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+    outline: none;
+}
+
+input[type="text"]:hover{
+    border: 1px solid #006FC4;
+}
+
+input[type="submit"]{
+    background-color: #f03342;
+    border: 1px solid transparent;
+    font-size: 15px;
+    color: #FFFFFF;
+    padding: 5px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+    border-radius: 4px;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>jqui-tabs</title>
+</head>
+<body>
+  <div id="prizes">
+    <ul>
+      <li><a href="#tab-1">First Prize</a></li>
+      <li><a href="#tab-2">Second Prize</a></li>
+      <li><a href="#tab-3">Third Prize</a></li>
+    </ul>
+    <div id="tab-1"><p>First prize is...</p></div>
+    <div id="tab-2"><p>Second prize is...</p></div>
+    <div id="tab-3"><p>Third prize is...</p></div>
+  </div>
+  <script src="jquery-3.1.1.js"></script>
+  <script src="jquery-ui-1.12.1/jquery-ui.js"></script>
+  <script>
+  $(function(){
+    $('#prizes').tabs();
+  });
+  </script>
+</body>
+</html>

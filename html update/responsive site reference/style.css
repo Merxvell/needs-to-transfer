@@ -1,0 +1,176 @@
+body {
+    color: #000305;
+    background-color: #d3d3d3;
+    font-size: 87.5%;
+    /*base font size is 14px*/
+    font-family: Arial, 'Lucidia Sans Unicode';
+    line-height: 1.5;
+    text-align: left;
+}
+.body {
+    margin: 0 auto;
+    width: 70%;
+    clear: both;
+    /*makes container have NO floating elements*/
+}
+a {
+    text-decoration: none;
+}
+a:link, a:visited {
+    color: #FF6347;
+}
+a:hover, a:active {
+    color: #FFF;
+    background-color: #FF6347;
+}
+.mainHeader nav {
+    /*mozilla*/
+    /*IE */
+}
+.mainHeader nav ul {
+    list-style: none;
+    margin: 0 auto;
+}
+.mainHeader nav ul li {
+    float: left;
+    display: inline;
+}
+.mainHeader nav a:link, .mainHeader nav a:visited {
+    color: #FFF;
+    display: inline-block;
+    /*come back here to assign height*/
+    /*text height -(paddingheight*2)*/
+}
+.mainHeader nav a:hover, .mainHeader nav a:active, .mainHeader nav .active a:link, .mainHeader nav .active a:visited {
+    text-shadow: none;
+}
+
+/*content css*/
+
+.mainContent {
+    line-height: 25px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.content {
+    width: 70%;
+    float: left;
+}
+.topContent {
+    background-color: #FFF;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 3% 5%;
+    margin-top: 2%;
+}
+.botContent {
+    background-color: #FFF;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 3% 5%;
+    margin-top: 2%;
+}
+
+/*sidebar css*/
+
+.top-sidebar {
+    width: 21%;
+    float: left;
+    background-color: #FFF;
+    margin: 2% 0 2% 3%;
+    padding: 2% 3%;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.mid-sidebar {
+    width: 21%;
+    float: left;
+    background-color: #FFF;
+    margin-left: 3%;
+    margin-bottom: 2%;
+    padding: 2% 3%;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.bot-sidebar {
+    width: 21%;
+    float: left;
+    background-color: #FFF;
+    margin-left: 3%;
+    margin-bottom: 2%;
+    padding: 2% 3%;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.mainFooter {
+    width: 100%;
+    float: left;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin: 2% 0;
+    background-color: #666666;
+}
+.mainFooter p {
+    width: 92%;
+    margin: 10px auto;
+}
+
+/*MAKE RESPONSIVE*/
+/*adjust for mobile*/
+@media only screen and (min-width: 150px) and (max-width: 600px) {
+    .body {
+        width: 90%;
+        font-size: 95%;
+    }
+/* adjust header*/
+    .mainHeader nav {
+        height: 160px; /*4x as big*/
+    }
+    .mainHeader nav ul {
+        padding-left: 0;
+    }
+    .mainHeader nav ul li {
+        width: 100%;
+        text-align: center; /*center text, make each nav link take up all width*/
+    }
+    .mainHeader nav a:link, .mainHeader nav a:visited {
+        padding: 10px 25px;
+        height: 20px;
+        /*text height -(paddingheight*2)*/
+        display: block; /*act as normal list*/
+    }
+
+    /*main content*/
+    .content {
+        width: 100%;
+
+        margin-top: 2%;
+    }
+
+    .post-info{
+        display: none; /*not needed in mobile*/
+    }
+
+    .topContent {
+        padding: 3% 5%;
+        margin-top: 2%;
+        margin-bottom: 4%;
+    }
+    .botContent {
+        margin-top: 3%;
+    }
+
+    /*sidebar*/
+    .top-sidebar, .bot-sidebar, .mid-sidebar {
+        width: 94%; /*calculate*/
+        margin: 2% 0 2% 0;
+        padding: 2% 3%;
+    }
+}

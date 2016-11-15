@@ -1,0 +1,42 @@
+body {
+    background: url("background.gif") no-repeat center center fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+}
+
+
+#centered {
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+
+ul{
+    display: none;
+}
+
+li {
+    display: inline;
+    text-decoration: none;
+    color: #D3D3D3;
+    font-size: 20px;
+    font-family: 'Orbitron', sans-serif;
+    opacity: .6;
+    text-shadow: -1px -1px 0 #3E5A66, 1px -1px 0 #3E5A66, -1px 1px 0 #3E5A66, 1px 1px 0 #3E5A66;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 {
+    position:relative;
+    opacity: .4;
+    color: transparent;
+    font-family: 'Orbitron', sans-serif;
+    text-shadow: 0 0 1px #fff;
+}

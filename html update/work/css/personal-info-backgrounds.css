@@ -1,0 +1,188 @@
+@media (max-width: 1920px)
+body{
+	width: 100%;
+	margin: auto;
+}
+#title-container{
+	background-color: #6cd44c;
+}
+#progress-container{
+	width: 100%;
+	background-color: yellow;
+
+}
+header{
+	
+	display: inline;
+
+}
+.accordion-panel{
+	display:hide;
+}
+
+
+@media (max-width: 1080px)
+body{
+	width: 100%;
+	margin: auto;
+}
+#title-container{
+	background-color: #6cd44c;
+}
+#progress-container{
+	width: 100%;
+	background-color: yellow;
+
+}
+header{
+	
+	display: inline;
+
+}
+.accordion-panel{
+	display:hide;
+}
+
+
+
+@media (max-width: 1280px)
+body{
+	width: 100%;
+	margin: auto;
+}
+#title-container{
+	background-color: #6cd44c;
+}
+#progress-container{
+	width: 100%;
+	background-color: yellow;
+
+}
+header{
+	
+	display: inline;
+
+}
+.accordion-panel{
+	display:hide;
+}
+
+
+
+@media (max-width: 980px)
+body{
+	width: 100%;
+	margin: auto;
+}
+#title-container{
+	background-color: #6cd44c;
+}
+#progress-container{
+	width: 100%;
+	background-color: yellow;
+
+}
+header{
+	
+	display: inline;
+
+}
+.accordion-panel{
+	display:hide;
+}
+
+
+@media (max-width: 800px)
+body{
+	width: 100%;
+	margin: auto;
+}
+#title-container{
+	background-color: #6cd44c;
+}
+#progress-container{
+	width: 100%;
+	background-color: yellow;
+
+}
+header{
+	
+	display: inline;
+
+}
+.accordion-panel{
+	display:hide;
+}
+
+@media (max-width: 768px)
+body{
+	width: 100%;
+	margin: auto;
+}
+#title-container{
+	background-color: #6cd44c;
+}
+#progress-container{
+	width: 100%;
+	background-color: yellow;
+
+}
+header{
+	
+	display: inline;
+
+}
+.accordion-panel{
+	display:hide;
+}
+
+
+
+@media (max-width: 360px)
+body{
+	width: 100%;
+	margin: auto;
+}
+#title-container{
+	background-color: #6cd44c;
+}
+#progress-container{
+	width: 100%;
+	background-color: yellow;
+
+}
+header{
+	
+	display: inline;
+
+}
+.accordion-panel{
+	display:hide;
+}
+
+
+
+/*Media query for 320px, testing done on mozilla firefox on
+a 1600x900 monitor will test further on a 1920x1080p monitor*/
+@media (max-width: 320px)
+body{
+	width: 100%;
+	margin: auto;
+}
+#title-container{
+	background-color: #6cd44c;
+}
+#progress-container{
+	width: 100%;
+	background-color: yellow;
+
+}
+header{	
+	display: inline;
+}
+.accordion-panel{
+	display:hide;
+}
+h1{
+	text-align: center;
+}

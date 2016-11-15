@@ -1,0 +1,131 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Qwible</title>
+    <link rel="stylesheet" type="text/css" href="homeStyle.css"/>
+</head>
+<body>
+<div class="headerMenu">
+    <div id="wrapper">
+        <!--div class="logo">
+            <img src="">
+        </div> insert logo image when we have a logo -->
+        <div class="searchBox">
+            <form action="" method="GET" id="search">
+                <input type="text" name="q" size="60" height="30" placeholder="Find new discussions"/>
+            </form>
+        </div>
+        <!-- navigation bar / menu -->
+        <div id="menu">
+            <a href="#"> Name </a>
+            <a href="#"> Name </a>
+            <a href="#"> Name </a>
+            <a href="#"> Name </a>
+            <a href="#"> Name </a>
+            <a href="#"> Name </a>
+        </div>
+    </div>
+</div>
+
+<!--Quick Glance Profile Info-->
+<div id="profile">
+    <div id="profileContent"></div>
+    <div id="profileInfo">
+        <ul id="basicInfo">
+            <li id="userName">User Name</li>
+            <li id="userInfo">Info that wants to be displayed</li>
+            <li id="TBA">ayyy lmao</li>
+        </ul>
+    </div>
+    <div class="changeButtons">
+        <input id="updateInfo" type="button" name="updateInfo" value="Update Info!">
+    </div>
+</div>
+<!-- posting form -->
+<div class="mainContent" style="width: 702px; margin: 0 auto 0 auto;">
+    <div class="content">
+        <form title="posting">
+            <input id="post" type="text" name="post" size="25" placeholder="Let Start a flame war">
+            <div id="postButtons">
+                <select id="postSecurity">
+                    <option value="postProfile">Post using profile</option>
+                    <option value="postAnonymous">Post anonymously</option>
+                </select>
+                <input id="submitPost" type="submit" name="submitPost" value="Post">
+            </div>
+        </form>
+        <!-- topics that will appear in the news feed html -->
+        <article class="profileTopics">
+            <header class="relatedTopics">
+                <h1 class="topicTitle"><a class="topicLink" href="#">Something Something controversial topic</a></h1>
+                <footer class="otherUsers"><a class="userLink" href="#">User who started the topic</a></footer>
+            </header>
+            <content>
+                <p class="topicSample">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                    in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                    sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                    laborum.</p>
+            </content>
+
+        </article>
+        <article class="profileTopics">
+            <header class="relatedTopics">
+                <h1 class="topicTitle"><a class="topicLink" href="#">Something Something it's current year</a></h1>
+                <footer class="otherUsers"><a class="userLink" href="#">User who started the topic</a></footer>
+            </header>
+            <content>
+                <p class="topicSample">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                    in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                    sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                    laborum.</p>
+            </content>
+        </article>
+
+        <article class="profileTopics">
+            <header class="relatedTopics">
+                <h1 class="topicTitle"><a class="topicLink" href="#">Something Something POTUS</a></h1>
+                <footer class="otherUsers"><a class="userLink" href="#">User who started the topic</a></footer>
+            </header>
+            <content>
+                <p class="topicSample">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                    in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                    sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                    laborum.</p>
+            </content>
+        </article>
+    </div>
+</div>
+
+<!--asides for daily topic links possibly an embedded link to google for quick fact checking, -->
+<aside class="dailyTopic">
+    <article>
+        <h1 class="topicTitle"><a class="topicLink" href="#">Daily/Most Discussed Topic</a></h1>
+        <p class="topicSample">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+            in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+            sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+            laborum.</p>
+    </article>
+</aside>
+
+<aside class="dailyTopic">
+    <article>
+        <h1 class="topicTitle"><a class="topicLink" href="#">Sponsored Topic</a></h1>
+        <p class="topicSample">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+            in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+            sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+            laborum.</p>
+    </article>
+</aside>
+</body>
+</html>
